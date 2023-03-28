@@ -43,7 +43,15 @@ ul{
 }
 
 .first-container > div > img{
+    border: 3px solid red;
     background-color: grey;
+    height: auto;
+    width: 100%;
+    min-width: 300px;
+}
+
+.first-container > div{
+    flex: 1;
 }
 
 .first-container{
@@ -85,6 +93,7 @@ h1{
 .second-container > h2{
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
@@ -93,7 +102,7 @@ h1{
 .box-container{
     display: flex;
     gap: 15px;
-    padding: 10px 50px;
+    /*padding: 10px 50px;*/
 }
 
 .box-1,
@@ -115,6 +124,8 @@ margin-right: auto;
 background-color: white;
 border: 3px solid #3882F6;
 border-radius: 20px;
+width: 100%;
+min-width: 100px;
 }
 
 
